@@ -1,0 +1,76 @@
+<div style="width:80%;margin:0 auto;" class="titulo">
+	<h1>Búsqueda de valoración </h1>
+</div>
+
+<div style="width:60%;margin:0 auto;">
+
+	<%= form_tag valuations_path, method: :get do %>
+		<p>
+			<%= text_field_tag :query, params[:query] %>
+			<%= submit_tag "Búscar", id: nil %>
+		</p>
+	<% end %>
+	
+	<ul class="no-list row center-xs borde">
+		<li class="col-md">
+			<p>Id</p>		
+		</li>
+		<li class="col-md">
+			<p>Nombre</p>		
+		</li>
+		<li class="col-md">
+			<p>Médico</p>		
+		</li>
+		<li class="col-md">
+			<p>Fecha</p>		
+		</li>
+		<li class="col-md">
+			<p>Consulta</p>		
+		</li>
+		<li class="col-md">
+			<p>Editar</p>		
+		</li>
+		<% admins_only do %>
+			<li class="col-md">
+				<p>Imprimir</p>	
+			</li>
+		<% end %>
+		<li class="col-md">
+			<p>Eliminar</p>		
+		</li>
+	</ul>
+
+	<% @valuations.each do |valuation| %>
+		<ul class="no-list row center-xs">
+			<li class="col-md">
+				<p><%= valuation.id_internal %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= valuation.nombre %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= valuation.medico %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= valuation.created_at %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= link_to "Consulta", valuation %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= link_to "Editar", edit_valuation_path(valuation) %></p>
+			</li>
+			<% admins_only do %>
+				<li class="col-md">
+					<p><%= link_to "Imprimir", "/valuations/#{valuation.id}/print" %></p>
+				</li>
+			<% end %>
+			<li class="col-md">
+				<p><%= link_to "Eliminar", valuation, method: :delete,
+	data: { confirm: "Estas seguro que quieres borrar ese usuario?"} %></p>		
+			</li>
+		</ul>
+	<%end%>
+
+
+</div>

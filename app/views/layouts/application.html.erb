@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tamuin</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div class="header">
+		<div class="men">
+			<div class="img">
+			<%= image_tag "fundacion.jpg" %>
+			</div>
+			<div>
+			<%= link_to "Nuevo registro", "/internals/new" %>
+			</div>
+			<div>
+			<%= link_to "Nueva valoracion", "/valuations/new" %>
+			</div>
+			<div>
+			<%= link_to "Nuevo pago", new_share_path %>
+			</div>
+			<div>
+			<%= link_to "Consulta de registro", "/internals" %>
+			</div>
+			<div>
+			<%= link_to "Consulta de valoracion", "/valuations" %>
+			</div>
+			<div>
+			<%= link_to "Consluta de pagos", "/shares" %>
+			</div>
+		</div>
+	</div>
+
+<div class="panel">
+<% if current_user %>
+
+    <ul>
+
+      <li> <%= link_to "Log out", logout_path, method: :delete %></li>
+      <% admins_only do %>
+        <li><%= link_to "Admin Panel", admin_users_path %></li>
+      <% end %>
+    <% else %>
+		  
+      <li><%= link_to "Log In", login_path %></li>
+    </ul>
+    <% end %>
+</div>
+	
+
+	
+	<% flash.each do |key, value| %>
+  		<div class='flash' id='<%= key %>'>
+    		<%= value %>
+  		</div>
+	<% end %>
+
+<%= yield %>
+
+</body>
+</html>

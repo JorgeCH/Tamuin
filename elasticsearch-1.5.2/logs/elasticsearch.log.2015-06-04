@@ -1,0 +1,351 @@
+[2015-06-04 15:49:34,422][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-06-04 15:49:34,895][INFO ][node                     ] [Nicole St. Croix] version[1.5.2], pid[25260], build[62ff986/2015-04-27T09:21:06Z]
+[2015-06-04 15:49:34,896][INFO ][node                     ] [Nicole St. Croix] initializing ...
+[2015-06-04 15:49:34,931][INFO ][plugins                  ] [Nicole St. Croix] loaded [], sites []
+[2015-06-04 15:49:42,729][INFO ][node                     ] [Nicole St. Croix] initialized
+[2015-06-04 15:49:42,832][INFO ][node                     ] [Nicole St. Croix] starting ...
+[2015-06-04 15:49:43,396][INFO ][transport                ] [Nicole St. Croix] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.73:9300]}
+[2015-06-04 15:49:43,808][INFO ][discovery                ] [Nicole St. Croix] elasticsearch/JJ7LjM_KTY2oAhS5gYQSAA
+[2015-06-04 15:49:47,646][INFO ][cluster.service          ] [Nicole St. Croix] new_master [Nicole St. Croix][JJ7LjM_KTY2oAhS5gYQSAA][Cobo-PC][inet[/192.168.1.73:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-04 15:49:47,806][INFO ][http                     ] [Nicole St. Croix] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.73:9200]}
+[2015-06-04 15:49:47,806][INFO ][node                     ] [Nicole St. Croix] started
+[2015-06-04 15:49:49,252][INFO ][gateway                  ] [Nicole St. Croix] recovered [3] indices into cluster_state
+[2015-06-04 15:50:17,699][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:50:17,700][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:50:47,664][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:51:17,666][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:51:47,667][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:51:47,667][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:52:17,672][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:52:47,671][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:52:47,672][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:53:17,672][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:53:47,672][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:53:47,673][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:54:17,674][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:54:47,667][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:55:17,676][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:55:17,677][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:55:47,668][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:56:17,677][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:56:17,678][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:56:47,673][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:57:17,676][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:57:47,677][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:57:47,678][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:58:17,679][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:58:47,679][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:58:47,680][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 15:59:17,679][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 15:59:47,680][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 16:00:17,681][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 16:00:17,682][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 16:00:47,680][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 16:01:17,681][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 16:01:47,681][WARN ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark [10%] exceeded on [JJ7LjM_KTY2oAhS5gYQSAA][Nicole St. Croix] free: 50.1gb[9.8%], shards will be relocated away from this node
+[2015-06-04 16:01:47,681][INFO ][cluster.routing.allocation.decider] [Nicole St. Croix] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 16:02:12,070][INFO ][node                     ] [Nicole St. Croix] stopping ...
+[2015-06-04 16:02:12,186][INFO ][node                     ] [Nicole St. Croix] stopped
+[2015-06-04 16:02:12,187][INFO ][node                     ] [Nicole St. Croix] closing ...
+[2015-06-04 16:02:12,287][INFO ][node                     ] [Nicole St. Croix] closed
+[2015-06-04 17:06:47,196][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-06-04 17:06:47,271][INFO ][node                     ] [Victor Strange] version[1.5.2], pid[21664], build[62ff986/2015-04-27T09:21:06Z]
+[2015-06-04 17:06:47,272][INFO ][node                     ] [Victor Strange] initializing ...
+[2015-06-04 17:06:47,276][INFO ][plugins                  ] [Victor Strange] loaded [], sites []
+[2015-06-04 17:06:50,743][INFO ][node                     ] [Victor Strange] initialized
+[2015-06-04 17:06:50,780][INFO ][node                     ] [Victor Strange] starting ...
+[2015-06-04 17:06:51,115][INFO ][transport                ] [Victor Strange] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.81:9300]}
+[2015-06-04 17:06:51,390][INFO ][discovery                ] [Victor Strange] elasticsearch/WJHrUqM_RKqLc86oTdlStA
+[2015-06-04 17:06:55,162][INFO ][cluster.service          ] [Victor Strange] new_master [Victor Strange][WJHrUqM_RKqLc86oTdlStA][Cobo-PC][inet[/192.168.1.81:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-04 17:06:55,288][INFO ][http                     ] [Victor Strange] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.81:9200]}
+[2015-06-04 17:06:55,288][INFO ][node                     ] [Victor Strange] started
+[2015-06-04 17:06:55,672][INFO ][gateway                  ] [Victor Strange] recovered [3] indices into cluster_state
+[2015-06-04 17:07:25,176][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:07:25,176][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:07:55,170][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:08:25,173][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:08:55,201][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:08:55,201][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:09:25,175][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:09:55,176][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:10:25,177][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:10:25,178][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:10:55,178][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:11:25,179][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:11:25,179][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:11:55,182][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:12:25,183][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:12:25,183][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:12:55,184][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:13:25,185][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:13:25,185][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:13:55,187][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:14:25,187][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:14:25,187][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:14:55,189][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:15:25,189][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:15:25,189][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:15:55,191][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:16:25,190][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:16:25,190][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:16:55,192][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:17:25,192][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:17:25,193][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:17:55,193][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:18:25,193][WARN ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark [10%] exceeded on [WJHrUqM_RKqLc86oTdlStA][Victor Strange] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:18:25,194][INFO ][cluster.routing.allocation.decider] [Victor Strange] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:18:26,508][INFO ][node                     ] [Victor Strange] stopping ...
+[2015-06-04 17:18:26,580][INFO ][node                     ] [Victor Strange] stopped
+[2015-06-04 17:18:26,580][INFO ][node                     ] [Victor Strange] closing ...
+[2015-06-04 17:18:26,584][INFO ][node                     ] [Victor Strange] closed
+[2015-06-04 17:18:30,378][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-06-04 17:18:30,457][INFO ][node                     ] [Ruby Thursday] version[1.5.2], pid[25388], build[62ff986/2015-04-27T09:21:06Z]
+[2015-06-04 17:18:30,457][INFO ][node                     ] [Ruby Thursday] initializing ...
+[2015-06-04 17:18:30,462][INFO ][plugins                  ] [Ruby Thursday] loaded [], sites []
+[2015-06-04 17:18:33,688][INFO ][node                     ] [Ruby Thursday] initialized
+[2015-06-04 17:18:33,728][INFO ][node                     ] [Ruby Thursday] starting ...
+[2015-06-04 17:18:33,925][INFO ][transport                ] [Ruby Thursday] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.81:9300]}
+[2015-06-04 17:18:34,174][INFO ][discovery                ] [Ruby Thursday] elasticsearch/W67nCSXuTJ6T4Wg6Ez3DOw
+[2015-06-04 17:18:37,946][INFO ][cluster.service          ] [Ruby Thursday] new_master [Ruby Thursday][W67nCSXuTJ6T4Wg6Ez3DOw][Cobo-PC][inet[/192.168.1.81:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-04 17:18:38,108][INFO ][http                     ] [Ruby Thursday] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.81:9200]}
+[2015-06-04 17:18:38,108][INFO ][node                     ] [Ruby Thursday] started
+[2015-06-04 17:18:38,479][INFO ][gateway                  ] [Ruby Thursday] recovered [3] indices into cluster_state
+[2015-06-04 17:19:07,964][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:19:07,964][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:19:37,955][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:20:07,957][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:20:37,958][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:20:37,958][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:21:07,961][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:21:37,961][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:21:37,961][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:22:07,962][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:22:37,963][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:22:37,963][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:23:07,964][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:23:37,965][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:23:37,965][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:24:07,967][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:24:37,968][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:24:37,968][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:25:07,969][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:25:37,970][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:25:37,971][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:26:07,971][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:26:37,971][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:27:07,974][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:27:07,974][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:27:37,974][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:28:07,977][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:28:07,977][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:28:37,977][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:29:07,979][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:29:07,979][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:29:37,980][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:30:07,980][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:30:07,980][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:30:37,980][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:31:07,982][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:31:07,983][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:31:37,984][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:32:07,984][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:32:07,985][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:32:37,986][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:33:07,987][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:33:07,988][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:33:37,988][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:34:07,988][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:34:07,989][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:34:37,990][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:35:07,991][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:35:07,992][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:35:37,992][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:36:07,994][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:36:07,994][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:36:37,993][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:37:07,994][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:37:07,995][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:37:37,996][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:38:07,998][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:38:07,999][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:38:37,999][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:39:08,000][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:39:08,001][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:39:38,002][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:40:08,003][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:40:08,004][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:40:38,002][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:41:08,004][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:41:08,005][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:41:38,006][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:42:08,007][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:42:08,008][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:42:38,007][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:43:08,009][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:43:08,010][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:43:38,010][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:44:08,012][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:44:08,012][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:44:38,013][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:45:08,014][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:45:08,015][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:45:38,015][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:46:08,016][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:46:08,016][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:46:38,016][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:47:08,018][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:47:08,019][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:47:38,019][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:48:08,021][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:48:08,021][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:48:38,026][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:49:08,023][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:49:08,024][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:49:38,023][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:50:08,025][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:50:08,026][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:50:38,025][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:51:08,027][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:51:08,027][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:51:38,026][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:52:08,028][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:52:08,028][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:52:38,030][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:53:08,030][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:53:08,031][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:53:38,030][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:54:08,033][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:54:08,033][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:54:38,032][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:55:08,034][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:55:08,035][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:55:38,034][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:56:08,036][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:56:08,036][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:56:38,037][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:57:08,038][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:57:08,039][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:57:38,040][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:58:08,039][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:58:38,039][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:58:38,040][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 17:59:08,042][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:59:38,040][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 17:59:38,041][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:00:08,041][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:00:38,042][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:00:38,042][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:01:08,043][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:01:38,044][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:01:38,045][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:02:08,046][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:02:38,047][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:02:38,048][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:03:08,051][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:03:38,050][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:03:38,050][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:04:08,050][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:04:38,051][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:04:38,051][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:05:08,053][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:05:38,054][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:05:38,054][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:06:08,055][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:06:38,056][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:06:38,057][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:07:08,058][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:07:38,052][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:08:08,053][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:08:08,053][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:08:38,054][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:09:08,056][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:09:08,056][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:09:38,056][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:10:08,059][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:10:08,059][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:10:38,057][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:11:08,059][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:11:08,060][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:11:38,061][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:12:08,062][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:12:08,063][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:12:38,063][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:13:08,063][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:13:08,064][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:13:38,065][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:14:08,066][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:14:08,067][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:14:38,067][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:15:08,070][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:15:08,070][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:15:38,069][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:16:08,070][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:16:08,071][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:16:38,071][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:17:08,073][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:17:08,074][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:17:38,073][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:18:08,075][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:18:08,076][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:18:38,081][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:19:08,077][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:19:08,077][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:19:38,077][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:20:08,079][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:20:08,080][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:20:38,080][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:21:08,082][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:21:08,082][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:21:38,082][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:22:08,084][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:22:08,084][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:22:38,086][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:23:08,087][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:23:08,088][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:23:38,087][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:24:08,089][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:24:08,090][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:24:38,089][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:25:08,091][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:25:08,091][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:25:38,093][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:26:08,093][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:26:08,094][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:26:38,092][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:27:08,094][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:27:08,095][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:27:38,095][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:28:08,096][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:28:08,097][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:28:38,099][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:29:08,100][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:29:08,101][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:29:38,101][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:30:08,101][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:30:08,102][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:30:38,102][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:31:08,104][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:31:08,105][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:31:38,105][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:32:08,106][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:32:08,107][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:32:38,108][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:33:08,109][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:33:08,110][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:33:38,109][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:34:08,111][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:34:08,111][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:34:38,112][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:35:08,114][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:35:08,115][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:35:38,115][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:36:08,116][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:36:08,117][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:36:38,117][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:37:08,118][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:37:08,119][INFO ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-04 18:37:38,118][WARN ][cluster.routing.allocation.decider] [Ruby Thursday] high disk watermark [10%] exceeded on [W67nCSXuTJ6T4Wg6Ez3DOw][Ruby Thursday] free: 50gb[9.8%], shards will be relocated away from this node
+[2015-06-04 18:38:05,971][INFO ][node                     ] [Ruby Thursday] stopping ...
+[2015-06-04 18:38:06,009][INFO ][node                     ] [Ruby Thursday] stopped
+[2015-06-04 18:38:06,009][INFO ][node                     ] [Ruby Thursday] closing ...
+[2015-06-04 18:38:06,014][INFO ][node                     ] [Ruby Thursday] closed

@@ -1,0 +1,68 @@
+</br>
+
+<%= form_for(@valuation) do |f| %>
+	<% @valuation.errors.full_messages.each do |message| %>
+		<div class="error">
+			* <%= message %>
+		</div>
+	<%end%>
+	
+	<div class="field col-xs">
+		<p>ID:</p><%= f.text_field :id_internal, placeholder: "Id del interno", class:"form-control" %>
+	</div>
+
+	<div class="field col-xs">
+		<p>Nombre:</p><%= f.text_field :nombre, placeholder: "Nombre interno", class:"form-control" %>
+	</div>
+	
+	<div class="field col-md">
+		<p>Padecimiento:</p><%= f.text_area :padecimiento, placeholder: "Padecimiento", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Síntoma:</p><%= f.text_area :sintoma, placeholder: "Síntoma", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Tratamiento previo:</p><%= f.text_area :trat_prev, placeholder: "Tratamiento previo", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>TA:</p><%= f.text_field :TA, placeholder: "TA", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>FC:</p><%= f.text_field :FC, placeholder: "FC",  class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>FR:</p><%= f.text_field :FR, placeholder: "FR", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>TEMP:</p><%= f.text_field :TEMP, placeholder: "TEMP", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Peso:</p><%= f.text_field :peso, placeholder: "peso", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Talla:</p><%= f.text_field :talla, placeholder: "talla", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Exploración y Auscultación:</p><%= f.text_area :ex_aus, placeholder: "Exploración y Auscultación", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Examen mental:</p><%= f.text_area :exa_ment, placeholder: "Examen mental", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Diagnóstico:</p><%= f.text_area :diagnostico, placeholder: "Diagnóstico", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Pronóstico:</p><%= f.text_area :pronostico, placeholder: "Pronóstico", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-md">
+		<p>Tratamiento sugerido:</p><%= f.text_area :trat_sug, placeholder: "Tratamiento sugerido", style:"height:200px;", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Médico:</p><%= f.text_field :medico, placeholder: "Médico", class:"form-control" %>
+	</div>
+	<br>
+	<div class="field col-xs">
+	<%= f.submit "Guardar", class:"btn" %>
+	</div>
+	<br>
+<%end%>

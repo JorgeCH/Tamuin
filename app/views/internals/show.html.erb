@@ -1,0 +1,132 @@
+<div style="width:80%;margin:0 auto;">
+	<h1> Datos de  <%= @internal.nombre %> <%= @internal.apellido  %></h1>
+</div>
+<br>
+<div style="width:70%;margin:0 auto;">
+	
+	<ul class="no-list row center-xs center">
+		<li class="col-md">ID:</li>
+		<li class="col-md borde"><%= @internal.id %></li>
+		<li class="col-md">Nombre:</li>
+		<li class="col-md borde"><%= @internal.nombre %></li>
+		<li class="col-md">Apellido:</li>
+		<li class="col-md borde"><%= @internal.apellido  %></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Sexo:</li>
+		<li class="col-md borde"><%= @internal.sexo %></li>
+		<li class="col-md">Fecha de Nacimiento:</li>
+		<li class="col-md borde"><%= @internal.f_nacimiento  %></li>
+		<li class="col-md">Edad:</li>
+		<li class="col-md borde"><%= @internal.edad %></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-xs-2">Dirección:</li>
+		<li class="col-xs-10 borde"><p><%= @internal.dir %></p></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Teléfono:</li>
+		<li class="col-md borde" ><%= @internal.tel %></li>
+		<li class="col-md">Nacionalidad:</li>
+		<li class="col-md borde"><%= @internal.nacionalidad %></li>
+		<li class="col-md">Estado civil:</li>
+		<li class="col-md borde"><%= @internal.estado_civil %></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Escolaridad:</li>
+		<li class="col-md borde"><%= @internal.escolaridad %></li>
+		<li class="col-md">Ocupacion:</li>
+		<li class="col-md borde"><%= @internal.ocupacion %></li>
+		<li class="col-md">Ingreso previo:</li>
+		<li class="col-md borde"><%= @internal.ingreso_prev %></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Referencia:</li>
+		<li class="col-md borde"><%= @internal.referencia %></li>
+		<li class="col-md">Tipo de ingreso:</li>
+		<li class="col-md borde"><%= @internal.tipo_ingreso %></li>
+		<li class="col-md"></li>
+		<li class="col-md"></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Motivo de la consulta:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @internal.motivo %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Estado actual:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @internal.stado %></p></li>
+	</ul>
+</div>
+
+<br>
+<div style="width:80%;margin:0 auto;">
+	<h1> Datos de  Representante </h1>
+</div>
+<br>
+<div style="width:70%;margin:0 auto;">
+	
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Nombre:</li>
+		<li class="col-md borde"><%= @representative.nombre_rep %></li>
+		<li class="col-md">Apellido:</li>
+		<li class="col-md borde"><%= @representative.nombre_rep %></li>
+		<li class="col-md">Edad:</li>
+		<li class="col-md borde"><%= @representative.edad %></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-xs-2">Dirección:</li>
+		<li class="col-xs-10 borde"><p><%= @representative.dir_rep %></p></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Parentesco:</li>
+		<li class="col-md borde"><%= @representative.parentesco %></li>
+		<li class="col-md">Teléfono:</li>
+		<li class="col-md borde"><%= @representative.tel_1 %></li>
+		<li class="col-md">Teléfono #2:</li>
+		<li class="col-md borde"><%= @representative.tel_2 %></li>
+	</ul>
+</div>
+
+<br>
+<div style="width:80%;margin:0 auto;">
+	<h1> Datos de Acuerdo </h1>
+</div>
+<br>
+<div style="width:70%;margin:0 auto;">
+	
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Cuota:</li>
+		<li class="col-md borde"><%= @consent.cuota %></li>
+		<li class="col-md">Duración:</li>
+		<li class="col-md borde"><%= @consent.duracion %></li>
+		<li class="col-md">Médico encargado:</li>
+		<li class="col-md borde"><%= @consent.encargado %></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Acuerdo:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @consent.acuerdo %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Medicamentos:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @consent.medicamentos %></p></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Creado el:</li>
+		<li class="col-md borde"><%= @consent.created_at %></li>
+		<li class="col-md">Modificado el:</li>
+		<li class="col-md borde"><%= @consent.updated_at %></li>
+	</ul>
+	<br>
+	<h3><%= link_to "Editar", edit_internal_path(@internal) %><h3>
+
+</div>	
+
+

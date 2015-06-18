@@ -1,0 +1,63 @@
+</br>
+<h3> Datos del interno </h3>
+
+<%= form_for(@internal) do |f| %>
+	<% @internal.errors.full_messages.each do |message| %>
+		<div class="error">
+			* <%= message %>
+		</div>
+	<%end%>
+	<div class="field col-xs">
+		<p>Nombre:</p><%= f.text_field :nombre, placeholder: "Nombre", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Apellido</p><%= f.text_field :apellido, placeholder: "Apellido", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Sexo:</p><%= f.text_field :sexo, placeholder: "Sexo", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Fecha de nacimiento</p><%= f.text_field :f_nacimiento, placeholder: "Fecha de nacimiento", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Edad:</p><%= f.text_field :edad, placeholder: "Edad", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Dirección</p><%= f.text_area :dir, placeholder: "Dirección", style:"height:250px;", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Teléfono:</p><%= f.text_field :tel, placeholder: "Teléfono", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+			<p>Nacionalidad</p><%= f.text_field :nacionalidad, placeholder: "Nacionalidad", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>estado civil</p><%= f.text_field :estado_civil, placeholder: "Estado civil", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Escolaridad</p><%= f.text_field :escolaridad, placeholder: "Escolaridad", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Ocupacion</p><%= f.text_field :ocupacion, placeholder: "Ocupacion", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Ingreso previo</p><%= f.text_field :ingreso_prev, placeholder: "Ingreso previo", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Referencia</p><%= f.text_field :referencia, placeholder: "Referencia", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Tipo de ingreso</p><%= f.text_field :tipo_ingreso, placeholder: "Tipo de ingreso", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Motivo de la consulta</p><%= f.text_area :motivo, placeholder: "Motivo de la consulta", style:"height:250px;", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Estado actual</p><%= f.text_area :stado, placeholder: "Estado actual", style:"height:250px;", class:"form-control" %>
+	</div>
+	<br>
+	<div class="field col-xs">
+	<%= f.submit "Guardar", class:"btn" %>
+	</div>
+	<br>
+<%end%>

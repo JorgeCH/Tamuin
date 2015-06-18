@@ -1,0 +1,133 @@
+<div class="header2">
+	<div class="men">
+		<div class="img">
+			<%= image_tag "fundacion.jpg" %>
+		</div>
+	</div>
+</div>
+
+<div class="title">
+	<h1> Datos de  <%= @internal.nombre %> <%= @internal.apellido  %></h1>
+</div>
+<br>
+<div class="content">
+	
+	<ul class="linea">
+		<li class="pad-in"><b><p>ID:</p></b></li>
+		<li class="pad-in"><p><%= @internal.id %></p></li>
+		<li class="pad-in"><b><p>Nombre:</p></b></li>
+		<li class="pad-in"><p><%= @internal.nombre %></p></li>
+		<li class="pad-in"><b><p>Apellido:</p></b></li>
+		<li class="pad-in"><p><%= @internal.apellido  %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>Sexo:</p></b></li>
+		<li class="pad-in"><p><%= @internal.sexo %></p></li>
+		<li class="pad-in"><b><p>Fec. Nac:</p></b></li>
+		<li class="pad-in"><p><%= @internal.f_nacimiento  %></p></li>
+		<li class="pad-in"><b><p>Edad:</p></b></li>
+		<li class="pad-in"><p><%= @internal.edad %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Dirección:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @internal.dir %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>Teléfono:</p></b></li>
+		<li class="pad-in" ><p><%= @internal.tel %></p></li>
+		<li class="pad-in"><b><p>Nacionalidad:</p></b></li>
+		<li class="pad-in"><p><%= @internal.nacionalidad %></p></li>
+		<li class="pad-in"><b><p>Estado civil:</p></b></li>
+		<li class="pad-in"><p><%= @internal.estado_civil %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>Ocupacion:</p></b></li>
+		<li class="pad-in"><p><%= @internal.ocupacion %></p></li>
+		<li class="pad-in"><b><p>Ingreso prev.:</p></b></li>
+		<li class="pad-in"><p><%= @internal.ingreso_prev %></p></li>
+		<li class="pad-in"><b><p>Ingreso(tipo):</p></b></li>
+		<li class="pad-in"><p><%= @internal.tipo_ingreso %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>Referencia:</p></b></li>
+		<li class="pad-in"><p><%= @internal.referencia %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Motivo de la consulta:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @internal.motivo %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Estado actual:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @internal.stado %></p></li>
+	</ul>
+</div>
+
+
+
+<div class="title">
+	<h1> Datos de  Representante </h1>
+</div>
+<br>
+<div class="content">
+	
+	<ul class="linea">
+		<li class="pad-in"><b><p>Nombre:</p></b></li>
+		<li class="pad-in"><p><%= @representative.nombre_rep %></p></li>
+		<li class="pad-in"><b><p>Apellido:</p></b></li>
+		<li class="pad-in"><p><%= @representative.apellido_rep %></p></li>
+		<li class="pad-in"><b><p>Edad:</p></b></li>
+		<li class="pad-in"><p><%= @representative.edad %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Dirección:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @representative.dir_rep %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>Parentesco:</p></b></li>
+		<li class="pad-in"><p><%= @representative.parentesco %></p></li>
+		<li class="pad-in"><b><p>Teléfono:</p></b></li>
+		<li class="pad-in"><p><%= @representative.tel_1 %></p></li>
+		<li class="pad-in"><b><p>Teléfono #2:</p></b></li>
+		<li class="pad-in"><p><%= @representative.tel_2 %></p></li>
+	</ul>
+</div>
+
+<br>
+<div class="title">
+	<h1> Datos de Acuerdo </h1>
+</div>
+<br>
+<div class="content">
+	
+	<ul class="linea">
+		<li class="pad-in"><b><p>Cuota:</p></b></li>
+		<li class="pad-in"><p><%= @consent.cuota %></p></li>
+		<li class="pad-in"><b><p>Duración:</p></b></li>
+		<li class="pad-in"><p><%= @consent.duracion %></p></li>
+		<li class="pad-in"><b><p>Médico:</p></b></li>
+		<li class="pad-in"><p><%= @consent.encargado %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Acuerdo:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @consent.acuerdo %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Medicamentos:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @consent.medicamentos %></p></li>
+	</ul>
+	<br>
+</div>	
+
+

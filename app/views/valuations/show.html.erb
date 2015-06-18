@@ -1,0 +1,88 @@
+<div style="width:80%;margin:0 auto;">
+	<h1> Datos de valoración</h1>
+</div>
+<br>
+<div style="width:70%;margin:0 auto;">
+	
+	<ul class="no-list row center-xs center">
+		<li class="col-md">ID:</li>
+		<li class="col-md borde"><%= @valuation.id_internal %></li>
+		<li class="col-md">Nombre:</li>
+		<li class="col-md borde"><%= @valuation.id_internal %></li>
+		<li class="col-md">Médico:</li>
+		<li class="col-md borde"><%= @valuation.medico %></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Padecimiento:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.padecimiento  %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Síntoma:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.sintoma %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Tratamiento previo:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.trat_prev %></p></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">TA:</li>
+		<li class="col-md borde"><%= @valuation.TA %></li>
+		<li class="col-md">FC:</li>
+		<li class="col-md borde"><%= @valuation.FC %></li>
+		<li class="col-md">FR:</li>
+		<li class="col-md borde"><%= @valuation.FR %></li>
+		<li class="col-md">TEMP:</li>
+		<li class="col-md borde"><%= @valuation.TEMP %></li>
+		<li class="col-md">Peso:</li>
+		<li class="col-md borde"><%= @valuation.peso %></li>
+		<li class="col-md">Talla:</li>
+		<li class="col-md borde"><%= @valuation.talla %></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Exploración y Auscultación:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.ex_aus %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Examen mental:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.exa_ment %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Diagnóstico:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.diagnostico %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Pronóstico:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.pronostico %></p></li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md">Tratamiento sugerido:</li>
+	</ul>
+	<ul class="no-list row center">
+		<li class="col-md borde"><p><%= @valuation.trat_sug %></p></li>
+	</ul>
+	<ul class="no-list row center-xs center">
+		<li class="col-md">Creado el:</li>
+		<li class="col-md borde"><%= @valuation.created_at %></li>
+		<li class="col-md">Modificado el:</li>
+		<li class="col-md borde"><%= @valuation.updated_at %></li>
+	</ul>
+	<br>
+	<h3><%= link_to "Editar", edit_valuation_path(@valuation) %></h3>
+</div>
+
+
+

@@ -1,0 +1,10 @@
+<div class="container">
+	<h2><%= @user %></h2>
+	<div class="panel">
+		<ul>
+			<li><%= link_to "Editar User", edit_admin_user_path(@user) %></li>
+			<li><%= link_to "Eliminar Usuario", admin_user_path(@user), method: :delete,
+			data: { confirm: "Estas seguro que quieres borrar ese usuario?"} %></li>
+		</ul>
+	</div>
+</div>

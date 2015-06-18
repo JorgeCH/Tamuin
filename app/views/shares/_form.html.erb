@@ -1,0 +1,27 @@
+</br>
+
+<%= form_for(@share) do |f| %>
+	<% @share.errors.full_messages.each do |message| %>
+		<div class="error">
+			* <%= message %>
+		</div>
+	<%end%>
+	
+	<div class="field col-xs">
+		<p>Id del interno:</p><%= f.text_field :id_internal, placeholder: "Id del interno", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Id del interno:</p><%= f.text_field :nombre, placeholder: "Nombre", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Pago número:</p> <%= f.text_field :num_pago, placeholder: "Numero de pago", class:"form-control" %>
+	</div>
+	<div class="field col-xs">
+		<p>Cantidad:</p> <%= f.text_field :cantidad, placeholder: "Cantidad", class:"form-control" %>
+	</div>
+	<br>
+	<div class="field col-xs">
+	<%= f.submit "Guardar", class:"btn" %>
+	</div>
+	<br>
+<%end%>

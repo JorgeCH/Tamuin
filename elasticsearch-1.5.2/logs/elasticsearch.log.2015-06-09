@@ -1,0 +1,151 @@
+[2015-06-09 23:12:36,255][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-06-09 23:12:36,772][INFO ][node                     ] [Stentor] version[1.5.2], pid[37792], build[62ff986/2015-04-27T09:21:06Z]
+[2015-06-09 23:12:36,772][INFO ][node                     ] [Stentor] initializing ...
+[2015-06-09 23:12:36,800][INFO ][plugins                  ] [Stentor] loaded [], sites []
+[2015-06-09 23:12:46,628][INFO ][node                     ] [Stentor] initialized
+[2015-06-09 23:12:46,740][INFO ][node                     ] [Stentor] starting ...
+[2015-06-09 23:12:47,497][INFO ][transport                ] [Stentor] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.73:9300]}
+[2015-06-09 23:12:47,889][INFO ][discovery                ] [Stentor] elasticsearch/qLw93taGSc-pQ6r35_-WNw
+[2015-06-09 23:12:51,722][INFO ][cluster.service          ] [Stentor] new_master [Stentor][qLw93taGSc-pQ6r35_-WNw][Cobo-PC][inet[/192.168.1.73:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-09 23:12:51,890][INFO ][http                     ] [Stentor] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.73:9200]}
+[2015-06-09 23:12:51,890][INFO ][node                     ] [Stentor] started
+[2015-06-09 23:12:53,474][INFO ][gateway                  ] [Stentor] recovered [3] indices into cluster_state
+[2015-06-09 23:13:21,766][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:13:21,766][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:13:51,735][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:14:21,737][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:14:51,736][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:14:51,736][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:15:21,740][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:15:51,740][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:15:51,740][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:16:21,743][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:16:51,742][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:16:51,743][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:17:21,742][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:17:51,742][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:18:21,743][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:18:21,743][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:18:51,744][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:19:21,746][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:19:21,746][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:19:51,746][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:20:21,747][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:20:21,748][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:20:51,749][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:21:21,749][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:21:21,749][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:21:51,751][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:22:21,753][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:22:21,753][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:22:51,754][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:23:21,755][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:23:21,755][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:23:51,756][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:24:21,758][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:24:21,758][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:24:51,758][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:25:21,760][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:25:21,760][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:25:51,760][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:26:21,763][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:26:21,763][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:26:51,762][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:27:21,763][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:27:21,764][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:27:51,757][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:28:21,759][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:28:51,760][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:28:51,760][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:29:21,762][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:29:51,761][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:29:51,762][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:30:21,763][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:30:51,763][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:30:51,764][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:31:21,765][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:31:51,765][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:31:51,765][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:32:21,767][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:32:51,766][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:32:51,767][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:33:21,768][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:33:51,768][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:33:51,768][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:34:21,770][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:34:51,770][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:34:51,770][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:35:21,771][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:35:51,771][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:35:51,772][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:36:21,774][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:36:51,775][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:36:51,775][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:37:21,776][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:37:51,777][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:37:51,777][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:38:21,779][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:38:51,777][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:38:51,778][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:39:21,780][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:39:51,780][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:39:51,781][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:40:21,782][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:40:51,783][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:40:51,783][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:41:21,785][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:41:51,785][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:41:51,786][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:42:21,786][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:42:51,792][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:42:51,792][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:43:21,788][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:43:51,789][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:44:21,791][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:44:21,791][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:44:51,790][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:45:21,792][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:45:21,793][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:45:51,792][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:46:21,795][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:46:21,795][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:46:51,795][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:47:21,798][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:47:21,799][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:47:51,798][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:48:21,800][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:48:21,800][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:48:51,801][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:49:21,802][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:49:21,802][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:49:51,802][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:50:21,804][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:50:21,804][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:50:51,805][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:51:21,804][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:51:21,805][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:51:51,805][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:52:21,807][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:52:21,808][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:52:51,807][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:53:21,809][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:53:21,810][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:53:51,810][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:54:21,812][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:54:21,813][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:54:51,813][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:55:21,815][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:55:21,816][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:55:51,816][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:56:21,817][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:56:21,818][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:56:51,817][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:57:21,819][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:57:21,820][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:57:51,821][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:58:21,821][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:58:21,822][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:58:51,822][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:59:21,824][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node
+[2015-06-09 23:59:21,825][INFO ][cluster.routing.allocation.decider] [Stentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-06-09 23:59:51,826][WARN ][cluster.routing.allocation.decider] [Stentor] high disk watermark [10%] exceeded on [qLw93taGSc-pQ6r35_-WNw][Stentor] free: 47.6gb[9.3%], shards will be relocated away from this node

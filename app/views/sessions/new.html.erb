@@ -1,0 +1,14 @@
+<div class="login">
+	<h1>Log In</h1>
+	<%= form_for :signin, method: "POST" do |f| %>
+		<p>
+		<%= f.label :email %></p>
+		<p><%= f.text_field :email, :placeholder => "Email" %>
+		</p>
+		<p>
+		<%= f.label :password %></p>
+		<p><%= f.password_field :password, :placeholder => "Password"%>
+		</p>
+		<%= f.submit "Log In" %>
+	<% end %>
+</div>

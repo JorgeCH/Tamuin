@@ -1,0 +1,35 @@
+</br>
+	<h3> Datos del representante </h3>
+	<%= form_for(@representative) do |f| %>
+		<% @representative.errors.full_messages.each do |message| %>
+			<div class="error">
+				* <%= message %>
+			</div>
+		<%end%>
+		<div class="field col-xs">
+			<p>Nombre:</p><%= f.text_field :nombre_rep, placeholder: "Nombre", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Apellido</p><%= f.text_field :apellido_rep, placeholder: "Apellido", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Edad:</p><%= f.text_field :edad, placeholder: "Edad", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Parentesco:</p><%= f.text_field :parentesco, placeholder: "Parentesco", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Dirección:</p><%= f.text_area :dir_rep, placeholder: "Dirección", style:"height:250px;", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Teléfono #1:</p><%= f.text_field :tel_1, placeholder: "Teléfono #1", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Teléfono #2:</p><%= f.text_field :tel_2, placeholder: "Teléfono #2", class:"form-control" %>
+		</div>
+		<br>
+		<div class="field col-xs">
+		<%= f.submit "Guardar", class:"btn" %>
+		</div>
+		<br>
+	<%end%>

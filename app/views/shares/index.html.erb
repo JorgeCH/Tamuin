@@ -1,0 +1,66 @@
+<div style="width:80%;margin:0 auto;" class="titulo">
+	<h1>Búsqueda de cuotas </h1>
+</div>
+
+<div style="width:60%;margin:0 auto;">
+
+	<%= form_tag valuations_path, method: :get do %>
+		<p>
+			<%= text_field_tag :query, params[:query] %>
+			<%= submit_tag "Búscar", id: nil %>
+		</p>
+	<% end %>
+	
+	<ul class="no-list row center-xs borde">
+		<li class="col-md">
+			<p>Id</p>		
+		</li>
+		<li class="col-md">
+			<p>Nombre</p>		
+		</li>
+		<li class="col-md">
+			<p>#Pago</p>		
+		</li>
+		<li class="col-md">
+			<p>Cantidad</p>		
+		</li>
+		<li class="col-md">
+			<p>Fecha</p>		
+		</li>
+		<li class="col-md">
+			<p>Consulta</p>		
+		</li>
+		<li class="col-md">
+			<p>Eliminar</p>		
+		</li>
+	</ul>
+
+	<% @shares.each do |share| %>
+		<ul class="no-list row center-xs">
+			<li class="col-md">
+				<p><%= share.id_internal %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= share.nombre %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= share.num_pago %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= share.cantidad %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= share.created_at %></p>		
+			</li>
+			<li class="col-md">
+				<p><%= link_to "Consulta", share %></p>	
+			</li>
+			<li class="col-md">
+				<p><%= link_to "Eliminar", share, method: :delete,
+	data: { confirm: "Estas seguro que quieres borrar ese usuario?"} %></p>		
+			</li>
+		</ul>
+	<%end%>
+
+
+</div>

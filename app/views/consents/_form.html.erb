@@ -1,0 +1,29 @@
+</br>
+	<h3> Consentimiento </h3>
+	<%= form_for(@consent) do |f| %>
+	<% @consent.errors.full_messages.each do |message| %>
+			<div class="error">
+				* <%= message %>
+			</div>
+		<%end%>
+		<div class="field col-xs">
+			<p>Cuota:</p><%= f.text_field :cuota, placeholder: "Cuota", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Acuerdo:</p><%= f.text_area :acuerdo, placeholder: "Acuerdo", style:"height:250px;", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Duración:</p><%= f.text_field :duracion, placeholder: "Duración", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Medicamentos:</p><%= f.text_area :medicamentos, placeholder: "Medicamentos", style:"height:250px;", class:"form-control" %>
+		</div>
+		<div class="field col-xs">
+			<p>Médico encargado</p><%= f.text_field :encargado, placeholder: "Médico encargado", class:"form-control" %>
+		</div>
+		<br>
+		<div class="field col-xs">
+		<%= f.submit "Guardar", class:"btn" %>
+		</div>
+		<br>
+	<%end%>

@@ -1,0 +1,234 @@
+html, 
+body {
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+    background-color: #fff;
+    text-rendering:optimizeLegibility;
+	font-weight:400;
+	word-wrap:normal;
+}
+a, a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+
+.header .men div a, a:visited{
+	display:inline-block;
+	height: inherit;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-top: 3%;
+	line-height: 2.5em;
+	color: inherit;
+	background-color: inherit;
+
+}
+
+.header{
+	width: 100%;
+	display: inline-table;
+	background-color: #2979FF;
+	color: #fff;
+}
+
+.header2{
+	width: 100%;
+	display: inline-table;
+}
+
+.men{
+	width: inherit;
+ 	vertical-align: middle;
+	display: table-cell;
+}
+
+.men div{	
+	line-height: 2em;
+	width: 25%;
+	float:left;
+	margin-right: .5%;
+	margin-left: .5%;
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+.men .img{
+	margin: 0;
+	width: 20%;
+}
+
+.men .img img{
+	max-height: 100%;
+	max-width: 100%;
+	float: left;
+}
+
+.color{
+	float: right;
+	width: 70%;
+	margin: 0 auto;
+	height: 150px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.borde{
+	border-style: solid;
+	border-width: 2px;
+}
+
+.titulo{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.pad{
+	padding-top: 1%;
+}
+
+.title{
+	width: 80%;
+	margin-left: 5%;
+}
+
+.title h1{
+	width: 100%;
+	font-size: 1em;
+	float: left;
+}
+
+.content{
+	width: 80%;
+	margin-left: 5%;
+}
+
+.content ul li{
+	list-style-type: none;
+	font-size: .7em;
+	margin: 0;
+	padding: 0;
+}
+
+.linea{
+	width: 100%;
+
+
+}
+
+.linea li{
+	width: 16.6%;
+	float: left;
+	text-align: left;
+}
+
+.linea2{
+	width: 99.6%;
+}
+
+.linea2 li{
+	width: 100%;
+	float: left;
+}
+
+.linea p{
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+
+}
+
+.linea2 p{
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+
+}
+
+.rowXL p{
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+}
+
+.rowXL{
+	width: 99.6%;
+	float: left;
+	margin:0;
+}
+
+.content .linea2 .pad-in p{
+	padding-left: 1%;
+}
+
+.content .rowXL .pad-in p{
+	padding-left: 1%;
+}
+
+.content .linea .pad-in p{
+	padding-left: 6%;
+}
+
+.login{
+	width: 15%;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+.login p{
+	width: 100%;
+}
+
+.login p input{
+	width: 100%;
+}
+
+.panel{
+	width: 100%;
+	
+	text-align: left;
+	overflow: hidden;
+}
+
+.panel ul{
+	width: 100%;
+}
+
+.panel ul li{
+	width: 10%;
+	float: right;
+	list-style-type: none;
+}
+
+.container{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container ul{
+	width: 100%;
+}
+
+.container ul li{
+	width: 100%;
+	float: left;
+	margin-bottom: 1%;
+	list-style-type: none;
+}
+
+.container ul .one{
+	margin-top: 2%;
+}
+
+.login .p-one{
+	width: 50%;
+	float: left;
+	margin-bottom: 10%;
+}

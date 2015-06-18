@@ -1,0 +1,92 @@
+<div class="header2">
+	<div class="men">
+		<div class="img">
+			<%= image_tag "fundacion.jpg" %>
+		</div>
+	</div>
+</div>
+
+<div class="title">
+	<h1> Datos de valoración médica </h1>
+</div>
+<br>
+<div class="content">
+	
+	<ul class="linea">
+		<li class="pad-in"><b><p>ID:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.id_internal %></p></li>
+		<li class="pad-in"><b><p>Nombre:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.nombre %></p></li>
+		<li class="pad-in"><b><p>Médico:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.medico %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Padecimiento:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.padecimiento  %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Síntoma:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.sintoma %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Tratamiento previo:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.trat_prev %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>TA:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.TA %></p></li>
+		<li class="pad-in"><b><p>FC:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.FC %></p></li>
+		<li class="pad-in"><b><p>FR:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.FR %></p></li>
+	</ul>
+	<ul class="linea">
+		<li class="pad-in"><b><p>TEMP:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.TEMP %></p></li>
+		<li class="pad-in"><b><p>Peso:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.peso %></p></li>
+		<li class="pad-in"><b><p>Talla:</p></b></li>
+		<li class="pad-in"><p><%= @valuation.talla %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Exploración y Auscultación:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.ex_aus %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Examen mental:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.exa_ment %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Diagnóstico:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.diagnostico %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Pronóstico:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.pronostico %></p></li>
+	</ul>
+	<ul class="linea2">
+		<li class="pad-in"><b><p>Tratamiento sugerido:</p></b></li>
+	</ul>
+	<ul class="rowXL">
+		<li class="pad-in"><p><%= @valuation.trat_sug %></p></li>
+	</ul>
+	<br>
+	<h3><%= link_to "Editar", edit_valuation_path(@valuation) %></h3>
+</div>
+
+
+

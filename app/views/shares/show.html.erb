@@ -1,0 +1,29 @@
+<div style="width:80%;margin:0 auto;">
+	<h1> Datos de Pago</h1>
+</div>
+<br>
+<div style="width:70%;margin:0 auto;">
+	
+	<ul class="no-list row center-xs pad">
+		<li class="col-md">ID:</li>
+		<li class="col-md borde"><%= @share.id_internal %></li>
+		<li class="col-md">Nombre:</li>
+		<li class="col-md borde"><%= @share.id_internal %></li>
+	</ul>
+	<ul class="no-list row center-xs pad">
+		<li class="col-md">Cantidad:</li>
+		<li class="col-md borde"><%= @share.cantidad %></li>
+		<li class="col-md">Pago número:</li>
+		<li class="col-md borde"><%= @share.num_pago  %></li>
+	</ul>
+	<ul class="no-list row center-xs pad">
+		<li class="col-md">Creado el:</li>
+		<li class="col-md borde"><%= @share.created_at %></li>
+		<li class="col-md">Modificado el:</li>
+		<li class="col-md borde"><%= @share.updated_at %></li>
+	</ul>
+	<br>
+	<h3><%= link_to "Editar", edit_share_path(@share) %></h3>
+</div>
+
+
