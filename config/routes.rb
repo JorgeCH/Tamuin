@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
-  get "/logout", to: "sessions#destroy", as: "logout"
+  delete "/logout", to: "sessions#destroy", as: "logout"
 
   get '/internals/:id/print', to: 'internals#print'
   get '/valuations/:id/print', to: 'valuations#print'
